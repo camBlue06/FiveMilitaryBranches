@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cmmaloney.fivemilitarybranches.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/Navy_image_view"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/Navy"
+            android:layout_marginRight="8dp"/>
+
+        <TextView
+            android:id="@+id/Navy_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="United States Navy"
+            android:textSize="32dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toRightOf="@id/Navy_image_view"/>
+
+        <TextView
+            android:id="@+id/NavyInfo_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Founded October 13, 1775"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toRightOf="@id/Navy_image_view"
+            android:layout_below="@id/Navy_text_view"/>
+
+        <ImageView
+            android:id="@+id/Army_image_view"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/Army"
+            android:layout_below="@id/Navy_image_view"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/Army_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="United States Army"
+            android:textSize="32dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toRightOf="@id/Army_image_view"
+            android:layout_marginTop="32dp"
+            android:layout_below="@id/NavyInfo_text_view"
+            />
+
+        <TextView
+            android:id="@+id/ArmyInfo_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Founded June 14, 1775"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toRightOf="@id/Army_image_view"
+            android:layout_below="@id/Army_text_view"/>
+
+        <ImageView
+            android:id="@+id/AirForce_image_view"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/Air_Force"
+            android:layout_below="@id/Army_image_view"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/AirForce_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="United States Air Force"
+            android:textSize="24dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toRightOf="@id/Army_image_view"
+            android:layout_marginTop="32dp"
+            android:layout_below="@id/ArmyInfo_text_view"
+            />
+
+        <TextView
+            android:id="@+id/AirForceInfo_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Founded September 18, 1947"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toRightOf="@id/AirForce_image_view"
+            android:layout_below="@id/AirForce_text_view"/>
+
+        <ImageView
+            android:id="@+id/Marines_image_view"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/Marines"
+            android:layout_below="@id/AirForce_image_view"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/Marines_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="United States Marine Corps"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toRightOf="@id/Army_image_view"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/AirForceInfo_text_view"
+            />
+
+        <TextView
+            android:id="@+id/MarinesInfo_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Founded November 10, 1775"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toRightOf="@id/Marines_image_view"
+            android:layout_below="@id/Marines_text_view"/>
+
+        <ImageView
+            android:id="@+id/CoastGuard_image_view"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/Coast_Guard"
+            android:layout_below="@id/Marines_image_view"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/CoastGuard_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="United States Coast Guard"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toRightOf="@id/CoastGuard_image_view"
+            android:layout_marginTop="52dp"
+            android:layout_below="@id/MarinesInfo_text_view"
+            />
+
+        <TextView
+            android:id="@+id/CoastGuardInfo_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Founded August 4, 1790"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_toRightOf="@id/CoastGuard_image_view"
+            android:layout_below="@id/CoastGuard_text_view"/>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
